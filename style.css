@@ -1,0 +1,82 @@
+/* thanks to almighty allah */
+/* dedicated to my teacher and motivator sir Ahmad Raza*/
+
+
+
+:root{
+    --t-clr: rgb(23, 24, 24);
+
+    --bg-main: rgb(223, 80, 80);
+}
+
+#header {
+    background-color: var(--bg-main)
+}
+
+.logo-img {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-image: url(images/logo.v.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-text {
+    cursor: pointer;
+    color: var(--t-clr);
+    color: rgb(23, 24, 24);
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: px;
+}
+
+.list li {
+    list-style: none;
+    margin: 0 0 0 10px;
+    padding: 15px 10px;
+    border-bottom: 1px solid transparent;
+}
+
+.list li:hover {
+    background-color: rgb(226, 98, 98);
+    border-bottom: 1px solid black;
+    animation: forwards;
+    animation-duration: 1s;
+}
+
+.list li a {
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--t-clr);
+}
+
+
+
+.footer{
+    background-color:var(--bg-main)
+}
+.b-1{
+    border-right: 1px solid grey;
+}
+.b-2{
+    border-right: 1px solid grey;
+}
+
+@media (max-width: 767px) {
+    .b-2{
+        border-right: none;
+    }
+    
+}
+@media (max-width: 575px) {
+    .b-1{
+        border-right: none;
+    }
+     .text{
+        text-align: center;
+     }
+    
+}
